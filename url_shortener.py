@@ -14,4 +14,5 @@ def expand_url(short_url):
     try:
         full_url = s.tinyurl.expand(short_url)
         return full_url
-    except Exce
+    except Exception as e:
+        return f"Error: {str(e)}"
