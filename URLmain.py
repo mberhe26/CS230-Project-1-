@@ -1,7 +1,8 @@
 # # build an application to store URL’s of any length and return ashortened version of the URL in Python.
 
-from url_shortener import shorten_url, expand_url
+from url_shortener import shorten_url, expand_url, count_shortened_urls
 import validators
+
 
 
 def is_URLValid(url):
@@ -17,7 +18,7 @@ def main():
         print("3. Exit")
 
         
-        choice = input("Enter '1' to shorten a URL, '2' to expand a URL, or '3' to exit: ")
+        choice = input("Enter '1' to shorten a URL, '2' to expand a URL, or '3' to count shortened URLs, or '4' to exit: ")
 
         if choice == '1':
             full_url = input("Enter the full URL: ")
@@ -33,7 +34,12 @@ def main():
                 print(f"Full URL: {full_url}")
             else:
                 print("Please enter valid URL")
+
         elif choice == '3':
+            count = count_shortened_urls()
+            print(f"Number of shortened URLs: {count}")
+
+        elif choice == '4':
             print("Goodbye!")
             break
         else:
