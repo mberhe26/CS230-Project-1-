@@ -2,15 +2,15 @@
 
 <h3>Brief Description</h3>
 <p>
-        This application allows users to shorten long URLs or expand shortened URLs as needed. The app validates the input URL to ensure its correctness. If the URL is invalid, the user is prompted to enter a valid URL.
+        This application allows users to shorten long URLs or expand shortened URLs as needed. The app validates the input URL to ensure its correctness. The user is prompted to enter a valid URL if the URL is invalid.
 </p>
 <h3>Programming language and features</h3>
     <p>
-       Python Language
-       <b>Pyshorteners:</b> is a Python library that provides a simple interface to various URL shortening services.
-       <b>Validators:</b> is a Python library used for data validation, including URL validation.
-       <b>CSV:</b>  is a file format used to store tabular data in plain text.
-       <b>os:</b> is a Python module that provides a way to interact with the operating system.
+       <b>Python Language</b> <br>
+       <b>Pyshorteners:</b> is a Python library that provides a simple interface to various URL shortening services.<br>
+       <b>Validators:</b> is a Python library used for data validation, including URL validation.<br>
+       <b>CSV:</b>  is a file format used to store tabular data in plain text.<br>
+       <b>os:</b> is a Python module that provides a way to interact with the operating system.<br>
   </p>
 
 
